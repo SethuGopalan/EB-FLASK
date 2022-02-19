@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+      
+        
+    </head>
+
+    <body>
+      
+        <div id="mydiv"></div>
+
+        <script type='text/babel'>
+
+            class Contact extends React.Component{
+
+                constructor(props){
+
+                    super(props)
+                }
+                
+                render(){
+
+                    return(
+
+                        <div>
+                                <label>ContactInfo</label> 
+                                <a href="http://127.0.0.1:5000"> <button>Back to Home</button> </a>
+                        </div>
+                    );
+                }
+            }
+            ReactDOM.render(<Contact/>, document.getElementById('ChillContact'))
+        
+</script>
+    
+<head>
+    <body>
+        <div id="ChillContact"></div>
+    </body>
+
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+      
+        
+    </head>
+
+    <body>
+      
+        <div id="mydiv"></div>
+
+        <script type='text/babel'>
+
+            class ChillWind extends React.Component{
+
+                constructor(props){
+
+                    super(props)
+                }
+                
+                render(){
+
+                    return(
+
+                        <div>
+                         
+                        <a href="http://127.0.0.1:5000/contact"> <button>Contact Us</button> </a>
+                        
+                       <center> <img src="static\Images\Chil.jpg" alt=""  align = "left"  width = "1900" border="0" /></center>
+                    
+                                 
+                                                           
+                         
+                        </div>
+                    );
+                }
+            }
+            ReactDOM.render(<ChillWind />, document.getElementById('Chill'))
+        
+</script>
+    
+<head>
+    <body>
+        <div id="Chill"></div>
+    </body>
+
+
+</body>
+</html>
+
+
