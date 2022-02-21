@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"  integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+      
+        
+    </head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+        <code>
+      
+        <div id="mydiv"></div>
+
+        <script type='text/babel'>
+
+            class About extends React.Component{
+
+                constructor(props){
+
+                    super(props)
+                }
+                
+                render(){
+
+                    return(
+
+                        <div>
+                                
+                            <center> <img  src="static\Images\About Wayanad.jpg" alt=""  align = "left"  width = "1900" border="0" /></center>
+                            <div class="btn-group btn-group-justified">
+                         
+                             <a href="http://chillwindservicevilla.com/contact"> <button type="button" class="btn btn-Default btn-lg btn-block">Chill Wind Attractions</button></a>
+                             <a href= "http://chillwindservicevilla.com/about" > <button type="button" class="btn btn-Default btn-lg btn-block">About Waynad</button> </a>
+                        
+                             <a href="http://chillwindservicevilla.com"> <button type="button" class="btn btn-secondary btn-lg btn-block">Bact to Home Page</button> </a>
+                            </div>
+                        </div>
+                    );
+                }
+            }
+            ReactDOM.render(<About/>, document.getElementById('ChillAbout'))
+        
+</script>
+    
+<head>
+</code>
+
+    <body>
+        <div id="ChillAbout"></div>
+    </body>
+
+
+</body>
+</html>
